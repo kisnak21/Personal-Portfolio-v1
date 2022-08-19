@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body {
+    font-family: 'DynaPuff', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #3a3e59;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ed6b5b;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #3a3e59;
+    padding-top: 30px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+header {
+    display: inline;
+}
+
+img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron {
+    padding: 50px;
+    background-color: #ed6b5b;
+    text-align: center;
+    font-size: 20px;
+    color: #3a3e59;
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+footer {
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ed6b5b;
+    background-color: #3a3e59;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ed6b5b;
+}
+
+footer a:hover {
+    background-color: #febb75;
+}
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    nav {
+        position: flex;
+        flex-direction: column;
+    }
+
+    nav li {
+        display: inline;
+        flex-direction: column;
+    }
+    h2,h3 {
+        padding-top: 45px;
+    }
+}
+
+.divider {
+    margin: 1px;
+    width: 100%;
+    height: 1px;
+    background: whitesmoke;
+  }
+
+  ol a {
+    text-decoration: none;
+    color: #3a3e59;
+  }
